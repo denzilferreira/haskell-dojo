@@ -9,15 +9,17 @@ _SIZE_ = 3
 
 -- Q#02
 
-_DISPLAY_LOGO_ = undefined
+_DISPLAY_LOGO_ :: Bool
+_DISPLAY_LOGO_ = True
 
 -- Q#03
 
-convertRowIndex = undefined
+convertRowIndex :: Char -> Int
+convertRowIndex index = fromEnum (toUpper index) - 65
 
 -- Q#04
 
-_INVALID_MOVE_ = undefined
+_INVALID_MOVE_ = (-1, -1)
 
 -- Q#05
 
